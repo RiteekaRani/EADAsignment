@@ -1,0 +1,87 @@
+/* General styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar styles */
+nav {
+  background-color: #282c34;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #61dafb;
+  font-size: 1.2rem;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Page title styles */
+h1 {
+  font-size: 2rem;
+  color: #d81818;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  color: blue;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* List styles */
+ul {
+  padding-left: 1.5rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Blog post link styles */
+.blog-post-link {
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.blog-post-link:hover {
+  text-decoration: underline;
+}
